@@ -125,6 +125,9 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+.vscode/
+.vs/
+
 # yarn v3
 .pnp.*
 .yarn/*
@@ -137,3 +140,12 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+.DS_Store
+
+# JetBrains IDE files
+.idea/server/serviceAccountKey.json
+
+# Firebase service account key (never commit)
+serviceAccountKey.json
+/server/serviceAccountKey.json
